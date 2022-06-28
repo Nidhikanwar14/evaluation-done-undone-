@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="../JAVA/E6.js"></script> 
+        <link rel="stylesheet" href="../CSS/E6.css"> 
+    </head>
+
+    <body>
+      <form name ="f1" id ="myform">
+        <div class=" container pt-4">
+            <div class=" table-responsive ">
+                <table class="table table-bordered" id="mytable">
+                    <thead>
+                        <th>Text</th>
+                        <th>Action</th>
+                        <tr>
+                          <td><input type="text" name="any_text" id="text"/></td>
+                          <td><button class="btn btn-md btn" onClick="addTable()" id="addBtn" type="button"> Add</button> </td>
+                        </tr>
+                    </thead>
+                  </table>
+            </div>
+        </div>
+      </form>
+        <div class = "container pt-4">
+          <div class = " table-responsive">
+            <table  class="table table-bordered" id ="mytable2" >
+              <thead>
+                <tr>
+                  <td>Output</td>
+                  <td>Action</td>
+                  <td>Result</td>
+                </tr>
+              </thead>
+              <tbody id="displayArea">
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </body>
+</html>
